@@ -183,7 +183,7 @@ Doesn't store data unless integrated with a database (future scope).
 
 **Syed Mohammad Adeel**
 Final Year B.Tech (CSE)
-📧 Email: [adeel@example.com](mailto:adeel@example.com)
+📧 Email: [mohammad.addel.syed@gmail.com]
 
 ---
 
