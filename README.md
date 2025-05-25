@@ -2,7 +2,7 @@
 
 A powerful AI-driven resume parsing platform that automates candidate analysis using advanced NLP, OCR, and intelligent job suggestions.
 
-![Resume Parser Banner](https://i.imgur.com/2Zxj9FH.png)
+
 
 ---
 
@@ -115,23 +115,7 @@ Your browser will open at:
 
 ---
 
-## 📸 Screenshots
 
-> Upload your screenshots to GitHub and replace the links below.
-
-### ✅ Upload Resume
-
-![Upload Screenshot](https://via.placeholder.com/800x400.png?text=Upload+Resume+Screen)
-
-### ✅ Parsed Data
-
-![Output Screenshot](https://via.placeholder.com/800x400.png?text=Parsed+Data+Screen)
-
-### ✅ Job Suggestions
-
-![Jobs Screenshot](https://via.placeholder.com/800x400.png?text=Top+Job+Suggestions)
-
----
 
 ## ⚙️ System Workflow
 
@@ -160,6 +144,28 @@ Your browser will open at:
 * 🌐 Supports multilingual OCR (future scope)
 * 📎 Plug & play with ATS systems
 * 📊 Scores resume quality, relevance, and skill gaps
+  
+
+---
+📊 Example Use Cases
+
+💼 HR tools to screen candidates faster
+
+🕹️ Resume validation platforms
+
+🌐 Career guidance or mentoring websites
+
+🤖 AI teaching assistants for resume feedback
+
+---
+
+🚫 Limitations
+
+Dependent on OpenAI API (rate limits/costs apply).
+
+OCR performance may vary with noisy or blurred images.
+
+Doesn't store data unless integrated with a database (future scope).
 
 ---
 
@@ -189,3 +195,8 @@ This project is open-source for educational and portfolio purposes.
 Contact the author for commercial licensing.
 
 ---
+
+
+✨ Show Some ❤️
+
+If you like this project, please give it a star ⭐ on GitHub and share it with others!
