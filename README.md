@@ -135,17 +135,20 @@ Your browser will open at:
 
 ## ⚙️ System Workflow
 
-```mermaid
-graph LR
-A[User Uploads Resume] --> B[File Type Check]
-B --> C1[PDF / DOCX Parsing]
-B --> C2[OCR Processing (Tesseract)]
-C1 --> D[Text Extraction]
-C2 --> D
-D --> E[ChatGPT via Groq API]
-E --> F[Structured JSON Output]
-F --> G[Display in Streamlit + Job Suggestions via API]
-G --> H[Download PDF / JSON]
+```graph TD
+    A[User Uploads Resume] --> B{File Type?}
+    B -->|PDF| C1[Text Extractor (PyPDF2)]
+    B -->|DOCX| C2[Text Extractor (python-docx)]
+    B -->|Image| C3[OCR Processor (Tesseract)]
+    C1 --> D[Text Cleaning & Preprocessing]
+    C2 --> D
+    C3 --> D
+    D --> E[ChatGPT Resume Parser]
+    E --> F[Extracted JSON Output]
+    F --> G1[Display on UI]
+    F --> G2[Download as JSON or PDF]
+    F --> G3[Job Suggestion Module]
+    G3 --> G4[Fetch Jobs from Remotive API]
 ```
 
 ---
