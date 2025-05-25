@@ -178,15 +178,7 @@ Final Year B.Tech (CSE)
 
 ---
 
-## 🖼️ How to Add Custom Screenshots
 
-Upload your screenshots to your GitHub repo under `/assets` or use Imgur/GitHub issues to generate public URLs.
-
-```markdown
-![Your Screenshot](https://your-url.com/screenshot1.png)
-```
-
----
 
 ## 📃 License
 
